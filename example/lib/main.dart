@@ -33,8 +33,13 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:flutter/foundation.dart';
 import 'dart:convert';
 import 'messages_page.dart';
+import 'package:sfmc/sfmc_web_mock.dart';
+import 'package:sfmc/sfmc_platform_interface.dart';
 
 void main() {
+  if (kIsWeb) {
+    SfmcPlatform.instance = SfmcWebMock();
+  }
   runApp(const MaterialApp(
     home: MyApp(),
   ));

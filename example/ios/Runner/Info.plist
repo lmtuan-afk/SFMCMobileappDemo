@@ -48,6 +48,6 @@
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
 	<key>SF_MARKETINGCLOUD_APP_GROUP_KEY</key>
-	<string>group.com.runner.example.sfmarketingcloudsdk</string>
+	<string>group.com.gimasys.marketingapp.sfmarketingcloudsdk</string>
 </dict>
 </plist>
